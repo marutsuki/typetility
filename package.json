@@ -1,20 +1,27 @@
 {
-  "name": "utility-types",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "type": "module",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "rollup": "^4.14.2",
-    "rollup-plugin-dts": "^6.1.0",
-    "tslib": "^2.6.2"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "utility-types",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "type": "module",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "rollup -c",
+        "format": "prettier . --write",
+        "lint": "eslint --fix src",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.7.0",
+        "eslint": "^9.7.0",
+        "globals": "^15.8.0",
+        "prettier": "^3.3.3",
+        "rollup": "^4.14.2",
+        "rollup-plugin-dts": "^6.1.0",
+        "tslib": "^2.6.2",
+        "typescript-eslint": "^7.16.0"
+    },
+    "author": "",
+    "license": "ISC"
 }
