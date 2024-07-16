@@ -1,4 +1,4 @@
-import { Complete } from '..';
+import { Complete } from '../../';
 
 type Obj = {
     a: string;
