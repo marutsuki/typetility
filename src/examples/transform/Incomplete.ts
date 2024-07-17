@@ -1,4 +1,4 @@
-import { Incomplete } from '../../';
+import { Incomplete } from '../../object';
 
 type Obj = {
     a: string;

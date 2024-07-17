@@ -1,4 +1,4 @@
-import { Entries } from '../../transform';
+import { Entries } from '../../object';
 
 type Type = {
     a: string;
