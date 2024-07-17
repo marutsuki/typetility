@@ -50,3 +50,32 @@ export type ExcludeTypes<T extends object, O> = T extends O
             >
         >
       : never;
+
+type FlatEntries<
+    T extends object,
+    R = '',
+    E = T,
+    K = keyof T,
+> = R extends string
+    ? K extends string
+        ? K extends keyof T
+            ? T[K] extends E
+                ? never
+                : T[K] extends object
+                  ? FlatEntries<T[K], `${R}.${K}`, E | T[K]>
+                  : {
+                        key: `${R}.${K}`;
+                        value: T[K];
+                    }
+            : never
+        : never
+    : never;
+
+export type Flat<T extends object> =
+    FlatEntries<T> extends infer EntryList
+        ? EntryList extends Entry
+            ? {
+                  [P in EntryList as P['key']]: P['value'];
+              }
+            : never
+        : never;

@@ -1,4 +1,4 @@
-import { Flat } from '../../types/experimental';
+import { Flat } from '../../types/object';
 
 type RecType = {
     abc: number;
