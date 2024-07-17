@@ -1,4 +1,4 @@
-import { DistinctPair, Pair } from '../../types/basic';
+import { DistinctPair, Pair } from '../../src/types/basic';
 
 type Letter = 'A' | 'B' | 'C';
 

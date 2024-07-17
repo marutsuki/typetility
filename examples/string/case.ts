@@ -1,4 +1,4 @@
-import { CamelList, Capitalize, FirstWord } from '../../types/string';
+import { CamelList, Capitalize, FirstWord } from '../../src/types/string';
 
 type Lower = 'lower';
 const capitalized: Capitalize<Lower> = 'Lower';

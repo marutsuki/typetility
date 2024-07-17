@@ -1,4 +1,4 @@
-import { Incomplete } from '../../types/object';
+import { Incomplete } from '../../src/types/object';
 
 type Obj = {
     a: string;

@@ -1,4 +1,4 @@
-import { Entries } from '../../types/object';
+import { Entries } from '../../src/types/object';
 
 type Type = {
     a: string;

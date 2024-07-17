@@ -1,4 +1,4 @@
-import { GetterName, SetterName } from '../../types/string';
+import { GetterName, SetterName } from '../../src/types/string';
 
 const getter: GetterName<'property'> = 'getProperty';
 

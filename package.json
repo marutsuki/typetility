@@ -1,7 +1,7 @@
 {
-    "name": "utility-types",
-    "version": "1.0.0",
-    "description": "",
+    "name": "typetility",
+    "version": "0.0.1",
+    "description": "Utility types for TypeScript",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
     "type": "module",
@@ -23,6 +23,6 @@
         "typescript": "^5.5.3",
         "typescript-eslint": "^7.16.0"
     },
-    "author": "",
+    "author": "Lucien Lu",
     "license": "ISC"
 }

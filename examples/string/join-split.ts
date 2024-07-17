@@ -1,4 +1,4 @@
-import { Join, Split } from '../../types/string';
+import { Join, Split } from '../../src/types/string';
 
 type AString = 'maru';
 const split: Split<AString> = ['m', 'a', 'r', 'u'];

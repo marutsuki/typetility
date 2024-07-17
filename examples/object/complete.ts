@@ -1,4 +1,4 @@
-import { Complete } from '../../types/object';
+import { Complete } from '../../src/types/object';
 
 type Obj = {
     a: string;

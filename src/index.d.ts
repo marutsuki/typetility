@@ -1,4 +1,4 @@
-export * from './types/augment';
-export * from './types/basic';
-export * from './types/object';
-export * from './types/string';
+export type * from './types/augment';
+export type * from './types/basic';
+export type * from './types/object';
+export type * from './types/string';
