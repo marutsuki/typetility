@@ -1,4 +1,4 @@
-import { DistinctPair, Pair } from '../../src/types/basic';
+import { DistinctPair, Pair } from '../../src/types/basic/struct';
 
 type Letter = 'A' | 'B' | 'C';
 

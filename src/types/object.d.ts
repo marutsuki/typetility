@@ -1,4 +1,4 @@
-import { Entry } from './basic';
+import { Entry } from "./basic/struct";
 
 export type Complete<T extends object> = {
     [P in keyof T]-?: T[P] extends object ? Complete<T[P]> : T[P];
