@@ -1,4 +1,4 @@
-import { IncludeTypes, ExcludeTypes } from '../../object';
+import { IncludeTypes, ExcludeTypes } from '../../types/object';
 
 type Type = {
     a: string;

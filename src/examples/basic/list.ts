@@ -1,4 +1,4 @@
-import { List, Tail } from '../data';
+import { List, Tail } from '../../types/basic';
 
 const test: List<string> = {
     head: 'abc',

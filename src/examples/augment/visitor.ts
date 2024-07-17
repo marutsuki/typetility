@@ -1,4 +1,4 @@
-import { Visitor } from '../../augment';
+import { Visitor } from '../../types/augment';
 
 type XmlNode = XmlNode[] | string;
 

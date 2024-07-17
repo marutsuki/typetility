@@ -1,4 +1,4 @@
-import { Reverse } from '../../object';
+import { Reverse } from '../../types/object';
 
 type Obj = {
     A: 'AVal';

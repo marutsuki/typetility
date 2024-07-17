@@ -1,3 +1,5 @@
+import { Entry } from './basic';
+
 export type Complete<T extends object> = {
     [P in keyof T]-?: T[P] extends object ? Complete<T[P]> : T[P];
 };
@@ -8,11 +10,6 @@ export type Incomplete<T extends object> = {
 
 export type Reverse<T extends Record<keyof T, T[keyof T]>> = {
     [P in keyof T as T[P]]: P;
-};
-
-export type Entry = {
-    key: string | symbol | number;
-    value: unknown;
 };
 
 export type Entries<T extends object> = {
